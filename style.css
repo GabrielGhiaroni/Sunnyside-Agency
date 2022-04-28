@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.up-block {
+    background-color: rgba(100, 176, 220, 0.876);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+header h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    margin-right: 30px;
+    font-family: "Barlow", sans-serif;
+    color: whitesmoke;
+}
+
+.contact {
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.hero-section {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 80px;
+    color: whitesmoke;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 800;
+    letter-spacing: 10.9px;
+}
+
+.arrow {
+    margin-bottom: 40px
+}
+
+.section-brand {
+    background-color: rgb(255, 249, 241);
+    display: flex;
+    justify-content: space-between;
+}
+
+.transform-your-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.lemons {
+    width: 400px;
+    height: 500px;
+}
+
+.transform-your-brand h2 {
+    margin-bottom: 40px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: bolder;
+    color: hsl(0, 0%, 0%)
+}
+
+.transform-your-brand p {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    color: hsl(210, 4%, 67%);
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.transform-your-brand a {
+    margin-top: 60px;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+}
+
+.testimonials {
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #524A4E
+}
+
+.testimonials-photos {
+    display: flex;
+}
+
+.photo {
+    margin-top: 80px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+
+.emily {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.emily p {
+    margin-bottom: 50px;
+    font-family: "Barlow", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.emily h3 {
+    margin-bottom: 10px;
+    font-family: "Fraunces", sans-serif;
+    color: ghostwhite;
+}
+
+.emily span {
+    font-family: "Barlow", sans-serif;
+    color: ghostwhite;
+}
+
+.jennie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.jennie p {
+    margin-bottom: 50px;
+    font-family: "Barlow", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.jennie h3 {
+    margin-bottom: 10px;
+    font-family: "Fraunces", sans-serif;
+    color: ghostwhite;
+}
+
+.jennie span {
+    font-family: "Barlow", sans-serif;
+    color: ghostwhite;
+}
+
+.thomas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thomas p {
+    margin-bottom: 50px;
+    font-family: "Barlow", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.thomas h3 {
+    margin-bottom: 10px;
+    font-family: "Fraunces", sans-serif;
+    color: ghostwhite;
+}
+
+.thomas span {
+    font-family: "Barlow", sans-serif;
+    color: ghostwhite;
+}
+
+.testimonials>h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: whitesmoke;
+}
+
+.images {
+    display: flex;
+}
+
+.img-footer {
+    width: 300px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #94B49F
+}
+
+.sunnyside-logo-footer {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    color: #07440d;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.anch-footer {
+    margin-right: 40px;
+}
+
+.a-footer {
+    text-decoration: none;
+    color: #296a2f;
+    font-family: "Barlow", sans-serif;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.fb-ig-tt {
+    margin-right: 30px;
+}
